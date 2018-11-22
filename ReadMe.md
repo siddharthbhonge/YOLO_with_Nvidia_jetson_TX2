@@ -24,21 +24,22 @@ Opencv was used to capture images .
 
 ##### I.A YOLO algorithm
 ```
-							Broad Overview
+							  Broad Overview
 								|
-						Reduce Dimesions of image
+						    Reduce Dimesions of image
 								|
-		output as -> probablity of box | box co-rdinates | Probability of each class
+		                 probablity of box | box co-rdinates | Probability of each class
 								|
-							hard threshold
+							  hard threshold
 								|	
-						Non max-suppression
+							Non max-suppression
 								|
-							  output
+							      output
 
 
 
  ```
+![alt text](https://github.com/siddharthbhonge/YOLO_with_Nvidia_jetson_TX2/blob/master/yolo.png)
 
 
 ##### I.B  Non-max Supression
