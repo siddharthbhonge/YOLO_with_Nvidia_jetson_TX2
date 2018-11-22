@@ -4,7 +4,7 @@
 
 ![alt text](https://github.com/siddharthbhonge/YOLO_with_Nvidia_jetson_TX2/blob/master/demo.png)
 
-##### Demo Link:https://www.youtube.com/watch?v=UQUWNcQjsqg&t=1s
+##### Demo Link:https://youtu.be/rHyBtfIDGOc
 
 ## Getting Started
 
