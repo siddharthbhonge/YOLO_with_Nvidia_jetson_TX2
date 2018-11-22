@@ -2,7 +2,7 @@
 
 <br />Tensorflow and keras implementation of YOLO algorithm using the on-board camera of TX2.
 
-![alt text](https://github.com/siddharthbhonge/Resnet_on_Jetson_TX2/blob/master/resnet.png)
+![alt text](https://github.com/siddharthbhonge/YOLO_with_Nvidia_jetson_TX2/blob/master/demo.png)
 
 ##### Demo Link:https://www.youtube.com/watch?v=UQUWNcQjsqg&t=1s
 
@@ -22,13 +22,13 @@ Opencv was used to capture images .
 
 ## Theory
 
-##### I.YOLO algorithm
+##### I.A YOLO algorithm
 ```
 							Broad Overview
 								|
 						Reduce Dimesions of image
 								|
-output as -> probablity of box | box co-rdinates | Probability of each class
+		output as -> probablity of box | box co-rdinates | Probability of each class
 								|
 							hard threshold
 								|	
@@ -41,10 +41,10 @@ output as -> probablity of box | box co-rdinates | Probability of each class
  ```
 
 
-##### Non-max Supression
+##### I.B  Non-max Supression
 
 
-![alt text](https://github.com/siddharthbhonge/Resnet_on_Jetson_TX2/blob/master/resnet.png)
+![alt text](https://github.com/siddharthbhonge/YOLO_with_Nvidia_jetson_TX2/blob/master/nonmax.png)
 
 
 
@@ -58,7 +58,7 @@ output as -> probablity of box | box co-rdinates | Probability of each class
 
 This was done using pre-trained model by darknet.Follow the instruction as follows.<br />
 
-![alt text](https://github.com/siddharthbhonge/Resnet_on_Jetson_TX2/blob/master/resnet.png)
+![alt text](https://github.com/siddharthbhonge/YOLO_with_Nvidia_jetson_TX2/blob/master/instructions.png)
 
 Then run the test_on_cam.py file.<br />
 Uncomment if needed to run on Video.Add video to data folder in .avi format.<br  />
